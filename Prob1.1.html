@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body  {
+            background-color: #1B91A1;
+        }
+    </style>
+</head>
+
+<body>
+<form name= "Pagina">
+
+    <hr></hr><center>
+    <div align="center">UNIVERSIDAD INTERAMERICANA DE PANAMA</div align="center">
+
+    <div align="center">TECNICO EN PROGRAMACION DE ANALISIS EN SISTEMA</div align="center">
+    <div align="center">TALLER DE PROGRAMACION PARA CLIENTE</div align="center">
+
+    <hr></hr>
+
+    <div align="center"><h3>TALLER DE PROGRAMACION PARA CLIENTE</h3></div align="center">
+    <br>
+
+    <input type="radio" name="grupo"value"CUBO" >Cubo<center>
+    <input type="radio" name="grupo"value"CUADRADO" >Cuadrado<center>
+    <input type="radio" name="grupo"value"MULTIPLICAR" >Multiplicar<center>
+
+    <scrip for = "grupo" event="onclick" language="javascript"
+
+           if(pagina.grupo[0].checked) {
+           var cub;
+           var n1 = prompt("Ingrese su numero");
+    n1 = parseInt(n1);
+
+    cub = (n1 * n1 * n1);
+    alert("El cubo es: " + cub);
+    }
+    else if(pagina.grupo[1].checked{
+    var cuad;
+    var n1 = prompt("Ingrese su numero");
+    n1 = parseInt(n1);
+    cuad=(n1*n1);
+    alert("El cuadrado es: " + cuad);
+    }
+    else if(pagina.grupo[2].checked{
+    var mult;
+    var n1 = prompt("Ingrese su numero");
+    var n2 = prompt("Ingrese su numero");
+    n1 = parseInt(n1);
+    n2 = parseInt(n2);
+    cuad = (n1 * n2);
+    alert("La multiplicacion es: " + mult);
+    }
+    </script>
+    </form>
+    </body>
+    </html>
